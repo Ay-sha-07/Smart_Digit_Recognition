@@ -22,6 +22,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 * **Classes:** 10 (digits 0–9)
 * **Structure:** Images stored in subfolders per digit class (e.g., '0/', '1/', ..., '9/')
 * **Sample Images:**
+  
    ![Copy of 1(17)](https://github.com/user-attachments/assets/9090eebb-be33-4d74-bcbd-32d0db15a0f4)
 
 ---
