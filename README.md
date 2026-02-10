@@ -1,4 +1,4 @@
-# Smart_Digit_Recognition
+hi# Smart_Digit_Recognition
 Smart_Digit_Recognition focuses on handwritten digit classification, a key challenge in computer vision and machine learning. Variations in writing style, size, and orientation increase complexity. The trained model accurately recognizes and classifies digits (0–9) from handwritten images using image processing and pattern recognition techniques.
 Title: Smart Handwritten Digit Recognition System
 
@@ -93,14 +93,6 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 * Achieved an overall accuracy of 41.2% with detailed performance metrics.
 * Demonstrated predictions, confusion matrix, and per-digit evaluation.
 * Future improvements: augment dataset, tune hyperparameters, and deeper network layers.
-
----
-
-## References:
-
-* TensorFlow/Keras Documentation: [https://www.tensorflow.org/](https://www.tensorflow.org/)
-* OpenCV Documentation: [https://opencv.org/](https://opencv.org/)
-* MNIST Dataset (if used for reference): [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
 
 ---
 
