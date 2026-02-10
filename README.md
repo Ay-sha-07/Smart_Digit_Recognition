@@ -4,19 +4,19 @@ Title: Smart Handwritten Digit Recognition System
 
 ---
 
-## Abstract
+## Abstract:
 
 This project develops a convolutional neural network (CNN) to recognize handwritten digits (0–9) from images. The system was trained on 79 images and tested on 34 images. The model achieved an overall accuracy of 41.2%, with detailed per-class performance metrics including detection rate, precision, and F1-score. Visualizations of predictions and the confusion matrix were generated to evaluate system performance.
 
 ---
 
-## Introduction
+## Introduction:
 
 Handwritten digit recognition is a key challenge in computer vision and machine learning due to variations in handwriting styles, orientations, and sizes. This project aims to build a robust system capable of accurately classifying digits from small-scale handwritten datasets.
 
 ---
 
-## Dataset Description
+## Dataset Description:
 
 * **Total Images:** 113 (Train: 79, Test: 34)
 * **Classes:** 10 (digits 0–9)
@@ -27,7 +27,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 ---
 
-## Methodology
+## Methodology:
 
 ### 1 Data Preprocessing
 
@@ -61,7 +61,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 ---
 
-## Results
+## Results:
 
 ### 1 Confusion Matrix
 
@@ -78,7 +78,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 * Overall system accuracy: 41.2%
 
-## Discussion
+## Discussion:
 
 * Misclassifications mostly occurred between visually similar digits (e.g., 3 vs 8).
 * Small dataset size limited model performance.
@@ -87,7 +87,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 ---
 
-## Conclusion
+## Conclusion:
 
 * Built a CNN-based handwritten digit recognition system.
 * Achieved an overall accuracy of 41.2% with detailed performance metrics.
@@ -96,7 +96,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 ---
 
-## References
+## References:
 
 * TensorFlow/Keras Documentation: [https://www.tensorflow.org/](https://www.tensorflow.org/)
 * OpenCV Documentation: [https://opencv.org/](https://opencv.org/)
