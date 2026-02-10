@@ -4,37 +4,38 @@ Title: Smart Handwritten Digit Recognition System
 
 ---
 
-## 2. Abstract
+## Abstract
 
 This project develops a convolutional neural network (CNN) to recognize handwritten digits (0–9) from images. The system was trained on 79 images and tested on 34 images. The model achieved an overall accuracy of 41.2%, with detailed per-class performance metrics including detection rate, precision, and F1-score. Visualizations of predictions and the confusion matrix were generated to evaluate system performance.
 
 ---
 
-## 3. Introduction
+## Introduction
 
 Handwritten digit recognition is a key challenge in computer vision and machine learning due to variations in handwriting styles, orientations, and sizes. This project aims to build a robust system capable of accurately classifying digits from small-scale handwritten datasets.
 
 ---
 
-## 4. Dataset Description
+## Dataset Description
 
 * **Total Images:** 113 (Train: 79, Test: 34)
 * **Classes:** 10 (digits 0–9)
 * **Structure:** Images stored in subfolders per digit class (e.g., '0/', '1/', ..., '9/')
-* **Sample Images:** ![Copy of 1(17)](https://github.com/user-attachments/assets/9090eebb-be33-4d74-bcbd-32d0db15a0f4)
+* **Sample Images:**
+   ![Copy of 1(17)](https://github.com/user-attachments/assets/9090eebb-be33-4d74-bcbd-32d0db15a0f4)
 
 ---
 
-## 5. Methodology
+## Methodology
 
-### 5.1 Data Preprocessing
+### 1 Data Preprocessing
 
 * Converted all images to grayscale.
 * Resized images to 28x28 pixels.
 * Normalized pixel values between 0 and 1.
 * Labels extracted automatically from subfolder names.
 
-### 5.2 Model Architecture
+### 2 Model Architecture
 
 | Layer        | Output Shape | Parameters |
 | ------------ | ------------ | ---------- |
@@ -52,21 +53,21 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 * Optimizer: Adam.
 * Epochs: 12, Batch Size: [Insert Batch Size].
 
-### 5.3 Training & Validation
+### 3 Training & Validation
 
 * Training/validation split: 79 images for training, 34 images for testing.
 * Monitored loss and accuracy during training.
 
 ---
 
-## 6. Results
+## Results
 
-### 6.1 Confusion Matrix
+### 1 Confusion Matrix
 
 * Insert the confusion matrix image here (confusion_matrix.png).
 * Rows: True labels, Columns: Predicted labels.
 
-### 6.2 Performance Metrics
+### 2 Performance Metrics
 
 | Digit | True Positives | Detection Rate | Precision | F1-Score |
 | ----- | -------------- | -------------- | --------- | -------- |
@@ -76,7 +77,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 * Overall system accuracy: 41.2%
 
-## 7. Discussion
+## Discussion
 
 * Misclassifications mostly occurred between visually similar digits (e.g., 3 vs 8).
 * Small dataset size limited model performance.
@@ -85,7 +86,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 ---
 
-## 8. Conclusion
+## Conclusion
 
 * Built a CNN-based handwritten digit recognition system.
 * Achieved an overall accuracy of 41.2% with detailed performance metrics.
@@ -94,7 +95,7 @@ Handwritten digit recognition is a key challenge in computer vision and machine 
 
 ---
 
-## 9. References
+## References
 
 * TensorFlow/Keras Documentation: [https://www.tensorflow.org/](https://www.tensorflow.org/)
 * OpenCV Documentation: [https://opencv.org/](https://opencv.org/)
